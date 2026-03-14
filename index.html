@@ -27,12 +27,30 @@
             width: 100%;
             text-align: center;
         }
+        
+        /* Profil Fotoğrafı Stili */
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #0078d4;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
         h1 { color: #0078d4; font-size: 2.2rem; margin-bottom: 5px; }
         h2 { color: #0078d4; border-bottom: 1px solid #1e1e1e; padding-bottom: 10px; margin-top: 30px; font-size: 1.5rem; }
         p { font-size: 1rem; color: #a0a0a0; line-height: 1.6; text-align: justify; }
         
         .section { margin-bottom: 25px; }
         
+        /* Okul Logosunun Stili */
+        .uni-logo {
+            max-width: 80px;
+            margin-top: 20px;
+            opacity: 0.7;
+        }
+
         /* Ders Listesi Tasarımı */
         .course-list {
             display: grid;
@@ -67,6 +85,7 @@
 
     <div class="container">
         <div class="section">
+            <img src="profil.jpg" alt="Kirik Abdullah" class="profile-img">
             <h1>Selam, Ben Kirik!</h1>
             <p style="text-align: center;">İstanbul Üniversitesi - Yönetim Bilişim Sistemleri (YBS)</p>
             <div class="tags">
@@ -82,6 +101,7 @@
             <p>
                 İstanbul Üniversitesi'nde Yönetim Bilişim Sistemleri öğrencisiyim. Teknolojinin yönetimle birleştiği noktada, özellikle sistem yönetimi ve ağ altyapıları üzerine kendimi geliştiriyorum. Üniversitemin bilgisayar laboratuvarında sistem sorumlusu olarak görev alıyor; Active Directory, donanım envanter yönetimi ve ağ izleme yazılımları üzerinde pratik deneyim kazanıyorum.
             </p>
+            <img src="logo.png" alt="İstanbul Üniversitesi" class="uni-logo">
         </div>
 
         <div class="section">
